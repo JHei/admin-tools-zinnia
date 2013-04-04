@@ -16,7 +16,7 @@ setup(name='admin_tools_zinnia',
       author_email=admin_tools_zinnia.__email__,
       url=admin_tools_zinnia.__url__,
 
-      packages=find_packages(exclude=['demo_admin_tools_zinnia']),
+      packages=find_packages(),
       classifiers=[
           'Framework :: Django',
           'Development Status :: 5 - Production/Stable',
